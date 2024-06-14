@@ -12,6 +12,11 @@ if (!global.perdeu)
 		if (global.pontos >= _pontos_necessarios)
 		{
 			global.level++;
+			
+			//Mudando a velocidade do background
+			layer_hspeed("bg_arvores", -global.level);
+			layer_hspeed("bg_reflexo_arvores", -global.level);
+			layer_hspeed("bg_reflexo_nuvens", -global.level*0.5);
 		}
 	}
 }

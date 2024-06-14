@@ -12,7 +12,10 @@ draw_text(20, 20, "Pontos: " + string(_pontos));
 //draw_text(20, 50, global.lista_pontos[global.level-1]);
 
 //Quantidade de coletaveis
-draw_text(20, 50, global.coletaveis);
+draw_text(80, 50, global.coletaveis);
+
+//Desenhando o icone dos coletaveis
+draw_sprite_ext(spr_coletavel_icone, 0, 45, 65, 2, 2, 0, c_white, 1)
 
 //Level do jogo
 draw_sprite_ext(spr_level, global.level, _meio_da_tela, 30, 2, 2, 0, c_white, 1);
