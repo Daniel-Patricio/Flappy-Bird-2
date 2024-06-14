@@ -1,2 +1,2 @@
 //Indo para a esquerda
-//hspeed = -2;
+hspeed = -4;

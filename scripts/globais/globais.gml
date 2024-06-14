@@ -12,6 +12,12 @@ global.pontos = 0;
 //Level
 global.level = 1;
 
+//Lista de pontos para subir os leveis
+global.lista_pontos = [100, 200, 400, 600, 900, 1200, 1600, 2000, 2500];
+
+//Coletaveis
+global.coletaveis = 0;
+
 #endregion
 
 #region funções

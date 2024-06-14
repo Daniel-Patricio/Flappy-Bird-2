@@ -7,4 +7,4 @@ var _tempo = game_get_speed(gamespeed_fps) * random_range(2,6);
 instance_create_layer(704, _meu_y, "Passaros", obj_passaro);
 
 //Chama o alarme novamente
-alarm[0] = _tempo;
+alarm[1] = _tempo;
