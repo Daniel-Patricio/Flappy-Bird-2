@@ -6,4 +6,32 @@
 //Variavel para saber se o jogador perdeu
 global.perdeu = false;
 
+//Pontos
+global.pontos = 0;
+
+//Level
+global.level = 1;
+
+#endregion
+
+#region funções
+
+//Perde o jogo
+function perde_jogo()
+{
+	//So da pra perder o jogo uma vez
+	if (global.perdeu) exit;
+	global.perdeu = true;
+
+	//Sobe
+	vspeed = -4;
+
+	layer_hspeed("bg_arvores", 0);
+	layer_hspeed("bg_reflexo_arvores", 0);
+	layer_hspeed("bg_reflexo_nuvens", 0);
+
+	//Reiniciar o jogo apos um tempo
+	alarm[0] = game_get_speed(gamespeed_fps) * 2;
+}
+
 #endregion
