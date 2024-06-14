@@ -18,6 +18,12 @@ global.lista_pontos = [100, 200, 400, 600, 900, 1200, 1600, 2000, 2500];
 //Coletaveis
 global.coletaveis = 0;
 
+//Destino da transição
+global.destino = rm_jogo;
+
+//variavel para saber se a transição foi iniciada
+global.transicao = false;
+
 #endregion
 
 #region funções
@@ -37,7 +43,10 @@ function perde_jogo()
 	layer_hspeed("bg_reflexo_nuvens", 0);
 
 	//Reiniciar o jogo apos um tempo
-	alarm[0] = game_get_speed(gamespeed_fps) * 2;
+	alarm[0] = game_get_speed(gamespeed_fps);
+	
+	//O destino é a room inicio
+	global.destino = rm_inicio;
 	
 	//Criando a transicao1
 	layer_sequence_create("Transicao", 0, 0, sq_transicao1);
@@ -46,7 +55,14 @@ function perde_jogo()
 //Muda a room do jogo
 function muda_room()
 {
-	room_goto(rm_jogo);
+	global.transicao = true;
+	room_goto(global.destino);
 }
+
+function finaliza_transicao()
+{
+	global.transicao = false;
+}
+
 
 #endregion

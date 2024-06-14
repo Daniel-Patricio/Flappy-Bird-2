@@ -35,6 +35,9 @@
         "GMFont",
       ],"listItems":[],"multiselect":false,"name":"fonte","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"fnt_botao","path":"fonts/fnt_botao/fnt_botao.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"fnt_botao","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"cor_texto","filters":[],"listItems":[],"multiselect":false,"name":"cor_texto","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$FFFFFFFF","varType":7,},
+    {"$GMObjectProperty":"v1","%Name":"destino","filters":[
+        "GMRoom",
+      ],"listItems":[],"multiselect":false,"name":"destino","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"rm_inicio","path":"rooms/rm_inicio/rm_inicio.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"rm_inicio","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

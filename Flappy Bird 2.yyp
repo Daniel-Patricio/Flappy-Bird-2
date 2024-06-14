@@ -38,6 +38,7 @@
   },
   "name":"Flappy Bird 2",
   "resources":[
+    {"id":{"name":"fnt_botao_pequeno","path":"fonts/fnt_botao_pequeno/fnt_botao_pequeno.yy",},},
     {"id":{"name":"fnt_botao","path":"fonts/fnt_botao/fnt_botao.yy",},},
     {"id":{"name":"fnt_pontos","path":"fonts/fnt_pontos/fnt_pontos.yy",},},
     {"id":{"name":"fnt_titulo","path":"fonts/fnt_titulo/fnt_titulo.yy",},},
@@ -46,10 +47,12 @@
     {"id":{"name":"obj_coletavel_exp","path":"objects/obj_coletavel_exp/obj_coletavel_exp.yy",},},
     {"id":{"name":"obj_coletavel","path":"objects/obj_coletavel/obj_coletavel.yy",},},
     {"id":{"name":"obj_level","path":"objects/obj_level/obj_level.yy",},},
+    {"id":{"name":"obj_loja","path":"objects/obj_loja/obj_loja.yy",},},
     {"id":{"name":"obj_passaro","path":"objects/obj_passaro/obj_passaro.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"rm_inicio","path":"rooms/rm_inicio/rm_inicio.yy",},},
     {"id":{"name":"rm_jogo","path":"rooms/rm_jogo/rm_jogo.yy",},},
+    {"id":{"name":"rm_loja","path":"rooms/rm_loja/rm_loja.yy",},},
     {"id":{"name":"globais","path":"scripts/globais/globais.yy",},},
     {"id":{"name":"sq_inicio","path":"sequences/sq_inicio/sq_inicio.yy",},},
     {"id":{"name":"sq_transicao1","path":"sequences/sq_transicao1/sq_transicao1.yy",},},
@@ -75,6 +78,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_inicio","path":"rooms/rm_inicio/rm_inicio.yy",},},
     {"roomId":{"name":"rm_jogo","path":"rooms/rm_jogo/rm_jogo.yy",},},
+    {"roomId":{"name":"rm_loja","path":"rooms/rm_loja/rm_loja.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
