@@ -38,6 +38,15 @@ function perde_jogo()
 
 	//Reiniciar o jogo apos um tempo
 	alarm[0] = game_get_speed(gamespeed_fps) * 2;
+	
+	//Criando a transicao1
+	layer_sequence_create("Transicao", 0, 0, sq_transicao1);
+}
+
+//Muda a room do jogo
+function muda_room()
+{
+	room_goto(rm_jogo);
 }
 
 #endregion
