@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"fnt_botao_pequeno",
+  "%Name":"fnt_efeitos",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":17,
@@ -117,7 +117,7 @@
   "last":0,
   "lineHeight":22,
   "maintainGms1Font":false,
-  "name":"fnt_botao_pequeno",
+  "name":"fnt_efeitos",
   "parent":{
     "name":"Fonts",
     "path":"folders/Fonts.yy",

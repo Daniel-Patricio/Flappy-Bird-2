@@ -8,6 +8,7 @@
   "instanceCreationOrder":[
     {"name":"inst_3ED2B2DE","path":"rooms/rm_inicio/rm_inicio.yy",},
     {"name":"inst_160B7FD5","path":"rooms/rm_inicio/rm_inicio.yy",},
+    {"name":"inst_5E6635A","path":"rooms/rm_inicio/rm_inicio.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -101,6 +102,10 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_botao","path":"objects/obj_botao/obj_botao.yy",},"propertyId":{"name":"texto","path":"objects/obj_botao/obj_botao.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"LOJA",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_botao","path":"objects/obj_botao/obj_botao.yy",},"propertyId":{"name":"destino","path":"objects/obj_botao/obj_botao.yy",},"resource":{"name":"rm_loja","path":"rooms/rm_loja/rm_loja.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_loja",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.969697,"scaleY":1.0,"x":320.0,"y":320.0,},
+        {"$GMRInstance":"","%Name":"inst_5E6635A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5E6635A","objectId":{"name":"obj_botao_efeitos","path":"objects/obj_botao_efeitos/obj_botao_efeitos.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_botao_efeitos","path":"objects/obj_botao_efeitos/obj_botao_efeitos.yy",},"propertyId":{"name":"texto","path":"objects/obj_botao_efeitos/obj_botao_efeitos.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"EFEITOS",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_botao_efeitos","path":"objects/obj_botao_efeitos/obj_botao_efeitos.yy",},"propertyId":{"name":"fonte","path":"objects/obj_botao_efeitos/obj_botao_efeitos.yy",},"resource":{"name":"fnt_efeitos","path":"fonts/fnt_efeitos/fnt_efeitos.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"fnt_efeitos",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":0.51515114,"x":600.0,"y":348.0,},
       ],"layers":[],"name":"level","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Player","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Player","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Coletaveis","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Coletaveis","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},

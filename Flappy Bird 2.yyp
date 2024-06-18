@@ -40,9 +40,11 @@
   "resources":[
     {"id":{"name":"fnt_botao_pequeno","path":"fonts/fnt_botao_pequeno/fnt_botao_pequeno.yy",},},
     {"id":{"name":"fnt_botao","path":"fonts/fnt_botao/fnt_botao.yy",},},
+    {"id":{"name":"fnt_efeitos","path":"fonts/fnt_efeitos/fnt_efeitos.yy",},},
     {"id":{"name":"fnt_pontos","path":"fonts/fnt_pontos/fnt_pontos.yy",},},
     {"id":{"name":"fnt_titulo","path":"fonts/fnt_titulo/fnt_titulo.yy",},},
     {"id":{"name":"obj_arvore","path":"objects/obj_arvore/obj_arvore.yy",},},
+    {"id":{"name":"obj_botao_efeitos","path":"objects/obj_botao_efeitos/obj_botao_efeitos.yy",},},
     {"id":{"name":"obj_botao","path":"objects/obj_botao/obj_botao.yy",},},
     {"id":{"name":"obj_coletavel_exp","path":"objects/obj_coletavel_exp/obj_coletavel_exp.yy",},},
     {"id":{"name":"obj_coletavel","path":"objects/obj_coletavel/obj_coletavel.yy",},},

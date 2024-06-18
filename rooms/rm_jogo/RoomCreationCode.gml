@@ -6,3 +6,6 @@ audio_stop_all();
 
 //Tocando a musica de fundo
 audio_play_sound(snd_musica_fundo, 0, 1);
+
+//Checa se tem efeitos
+altera_efeitos();
