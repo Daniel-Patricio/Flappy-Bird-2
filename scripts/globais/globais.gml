@@ -16,13 +16,19 @@ global.level = 1;
 global.lista_pontos = [100, 200, 400, 600, 900, 1200, 1600, 2000, 2500];
 
 //Coletaveis
-global.coletaveis = 0;
+global.coletaveis = 20;
 
 //Destino da transição
 global.destino = rm_jogo;
 
 //variavel para saber se a transição foi iniciada
 global.transicao = false;
+
+//Qual item está bloqueado ou não
+global.itens_bloqueados = [false, true, true];
+
+//Sprite atual do player
+global.sprite_player = spr_passaro_1;
 
 #endregion
 
