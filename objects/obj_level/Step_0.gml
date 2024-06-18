@@ -1,7 +1,7 @@
 //Ganhando pontos
 if (!global.perdeu)
 {
-	global.pontos += 10;
+	global.pontos += 0.2;
 	
 	if (global.level < 9)
 	{
@@ -12,6 +12,9 @@ if (!global.perdeu)
 		if (global.pontos >= _pontos_necessarios)
 		{
 			global.level++;
+			
+			//Tocando o som de lvl up
+			audio_play_sound(snd_level_up, 0, 0);
 			
 			//Mudando a velocidade do background
 			layer_hspeed("bg_arvores", -global.level);

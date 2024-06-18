@@ -16,7 +16,7 @@ global.level = 1;
 global.lista_pontos = [100, 200, 400, 600, 900, 1200, 1600, 2000, 2500];
 
 //Coletaveis
-global.coletaveis = 20;
+global.coletaveis = 0;
 
 //Destino da transição
 global.destino = rm_jogo;
